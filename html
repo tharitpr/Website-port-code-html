@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.1/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.1/css/foundation-float.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.6.2/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.6.2/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.6.2/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.6.2/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.6.2/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.6.2/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.6.2/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.6.2/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.6.2/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.6.2/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+    <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <img class="logo" src="imgs/photo (1 of 1) - Copy.jpg" alt="">
+      <h1 class="name">Tharit Chandee</h1>
+      <span class="slogan">A day without laughter is a day wasted</span>
+      <div class="social-img">
+          <ul>
+              <li><a href="https://twitter.com/tharitpr" target="_blank"><i class="fa tw fa-twitter"></i></a></li>
+              <li><a href="https://www.facebook.com/Tharit.chandee/" target="_blank"><i class="fa tw fa-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/tharit.pr/?hl=th" target="_blank"><i class="fa tw fa-instagram"></i></a></li>
+          </ul>
+      </div>
+      <p class="bio">
+          Hello everyone my name is Tharit Chandee. You can call me Pine-R. I'm 18 years old. I live in Rayong. I study at Rayongwittayakom school. My hobbies are listening to music, watching movies, play guitar and workout.
+          My talents coding , modeling and editing video. I can code HTML5 CSS3 and C.            
+      </p>
+      <h5>Portfolio</h5>
+      <hr>
+      <div class="row">
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/รับรางวัล 1.PNG" alt="">
+              </div>
+              <h4 class="dis">National Software Contest(NSC) รอบ 1</h4>
+          </div>
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/รับนางวัล nsc2.PNG" alt="">
+              </div>                   
+              <h4 class="dis">National Software Contest(NSC) รอบชิงชนะเลิศ</h4>
+          </div>  
+          <div class="small-12 columns">
+              <div class="work">
+                  <img src="imgs/GCT_Virtual_World_2019_-3.png" alt="">
+              </div>
+              <h4 class="dis">GCT virtual world การใช้ VR และ Unity Advanced</h4>
+          </div>
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/posn.png" alt="">
+              </div>                    
+              <h4 class="dis">ผู้ช่วยวิทยากรปูพื้นฐานสอวนคอมพิวเตอร์</h4>
+          </div>  
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/Software.png" alt="">
+              </div>                   
+              <h4 class="dis">ค่ายพัฒนา Software</h4>
+          </div>  
+          <div class="small-12 columns">
+              <div class="work">
+                  <img src="imgs/arduino.png" alt="">
+              </div>
+              <h4 class="dis">ใช้บอร์ด arduino ผ่าน tinkercad</h4>
+          </div>
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/ปรับพฐ.png" alt="">
+              </div>
+              <h4 class="dis">ปรับพื้นฐาน Basic Unity</h4>
+              </div>
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/image.png" alt="">
+              </div>                   
+              <h4 class="dis">Drawing , Perspective</h4>
+          </div>  
+          <div class="small-12 columns">
+              <div class="work">
+                  <img src="imgs/procreate.jpg" alt="">
+              </div>                   
+              <h4 class="dis">สอนการใช้ procreate</h4>
+          </div> 
+      
+      <h5>Certificates</h5>
+      <hr>
+      <div class="row">
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/nsc cer1.png" alt="">
+              </div>
+              <h4 class="dis">National Software Contest(NSC) ทุนสนับสนุน</h4>
+          </div>
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/nsc cer2.png" alt="">
+              </div>
+              <h4 class="dis">National Software Contest(NSC) รอบชิงชนะเลิศ</h4>
+          </div>
+          <div class="small-12 columns">
+              <div class="work">
+                  <img src="imgs/ku-01-1.png" alt="">
+              </div>
+              <h4 class="dis">การแก้ไขปัญหาด้วยการเขียนโปรแกรม KU</h4>
+          </div>
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/EQ-1.png" alt="">
+              </div>
+              <h4 class="dis">ค่ายพัฒนา EQ</h4>
+          </div>
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/T2T-1.png" alt="">
+              </div>
+              <h4 class="dis">ค่ายพลังคิด พิชิตความสำเร็จ</h4>
+          </div>
+          <div class="small-12 columns">
+              <div class="work">
+                  <img src="imgs/K en.png" alt="">
+              </div>
+              <h4 class="dis">K-engineering world workshop 2021</h4>
+          </div>
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/POSN-1.png" alt="">
+              </div>
+              <h4 class="dis">ค่ายส่งเสริมอัจฉริยภาพ คอมพิวเตอร์</h4>
+          </div>
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/software-1.png" alt="">
+              </div>
+              <h4 class="dis">ค่ายพัฒนา Software</h4>
+          </div>
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/Unityพื้นฐาน-วิทยากร print-2.png" alt="">
+              </div>
+              <h4 class="dis">เป็นวิทยากรการอบรม Unity พื้นฐาน</h4>
+          </div>
+          <div class="small-6 columns">
+              <div class="work">
+                  <img src="imgs/KU.png" alt="">
+              </div>
+              <h4 class="dis">Ku-01 เข้าร่วม</h4>
+          </div>
+
+
+
+
+
+
+
+
+
+      </div>
+      <h5>Contact Me</h5>
+      <hr>
+      <form action="">
+          <div class="row">
+              <div class="medium-6 columns">
+                  <label for="name">Name:
+                      <input type="text" placeholder="Your name">
+                  </label>
+              </div>
+              <div class="medium-6 columns">
+                  <label for="email">Email:
+                      <input type="text" placeholder="Your Email">
+                  </label>
+              </div>
+          </div>
+          <div class="medium-12 columns">
+              <label for="message">Message:
+                  <textarea name="message" placeholder="None"></textarea>
+              </label>
+              <button class="button">Send</button>
+          </div>
+          <div class="footer">
+              Tharit Chandee &copy;
+              <script>
+                  document.write(new Date().getFullYear())
+              </script>. All right Reserved
+          </div>
+      </form>
+  </div>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const loadEl = document.querySelector('#load');
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = [
+            'auth', 
+            'database', 
+            'firestore',
+            'functions',
+            'messaging', 
+            'storage', 
+            'analytics', 
+            'remoteConfig',
+            'performance',
+          ].filter(feature => typeof app[feature] === 'function');
+          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
